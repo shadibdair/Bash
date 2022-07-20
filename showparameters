@@ -1,0 +1,3 @@
+#!/bin/bash
+echo zero: $0\n
+echo ONE: $1\n
