@@ -1,2 +1,5 @@
 #!/bin/bash
 echo Hello $1!
+echo Welcome ${2}!
+echo $*
+echo ${#1}
