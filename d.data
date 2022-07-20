@@ -1,0 +1,8 @@
+Hello from d.data using Editor vi :)
+
+Copy 
+
+1- :wq! -> Quit
+2- dd   -> Delete line
+3- :q!  -> Quit without save the changes
+
