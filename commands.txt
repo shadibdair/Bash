@@ -8,3 +8,7 @@
 8- source
 9- chmod
 10- PS1="%@-> " 
+11- find /tmp -type f
+12- find /tmp -type f 2> out-err
+13- wc
+14-
