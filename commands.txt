@@ -1,0 +1,6 @@
+1- type
+2- file
+3- ps
+4- alias
+5- mv
+6- 
