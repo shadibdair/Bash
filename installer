@@ -1,10 +1,10 @@
 #!/bin/bash
 # Create a script
-mkdir /tmp/myexec
+mkdir /home/parallels/myexec
 # $_
-cd /tmp/myexec/
+cd /home/parallels/myexec/
 echo pwd
-echo $(date) > shadi
+echo echo $(date) > shadi
 chmod 700 shadi
-PATH=/tmp/myexec/:$PATH
+echo PATH=/home/parallels/myexec:$PATH >> ~/.zshrc
 echo 'alias installer_shadi="./installer"' >> ~/.zshrc
