@@ -3,4 +3,8 @@
 3- ps
 4- alias
 5- mv
-6- 
+6- env
+7- PATH=/home/shadi/script:$PATH
+8- source
+9- chmod
+10- PS1="%@-> " 
