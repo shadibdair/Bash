@@ -3,6 +3,8 @@
 mkdir /tmp/myexec
 # $_
 cd /tmp/myexec/
+echo pwd
 echo `date` > shadi
 chmod 700 shadi
-PATH=/tmp/myexec/shadi:$PATH
+PATH=/tmp/myexec/:$PATH
+echo 'alias installer_shadi="./installer"' >> ~/.bashrc
