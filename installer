@@ -1,0 +1,8 @@
+#!/bin/bash
+# Create a script
+mkdir /tmp/myexec
+# $_
+cd /tmp/myexec/
+echo `date` > shadi
+chmod 700 shadi
+PATH=/tmp/myexec/shadi:$PATH
