@@ -1,35 +1,5 @@
 #!/bin/bash
 #
-
-file=[
-    {
-        "country": "Afghanistan",
-        "city": "Kabul"
-    },
-    {
-        "country": "Albania",
-        "city": "Tirana"
-    },
-    {
-        "country": "Algeria",
-        "city": "Alger"
-    },
-    {
-        "country": "American Samoa",
-        "city": "Fagatogo"
-    },
-    {
-        "country": "Andorra",
-        "city": "Andorra la Vella"
-    },
-]
-
-
 echo "Enter the country you want to know his capital: "
 read Country
-#jq $country.city country.json
-
-for count in $Country
-do
-	echo $count
-done
+awk -F= -v key="${Country}" '$1==key {print $2}' country.txt

@@ -1,0 +1,5 @@
+Afghanistan=Kabul
+Albania=Tirana
+Canada=Ottawa
+Spain=Madrid
+Italy=Roma
