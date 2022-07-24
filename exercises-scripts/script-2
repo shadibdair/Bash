@@ -22,13 +22,14 @@ file=[
         "country": "Andorra",
         "city": "Andorra la Vella"
     },
-}
+]
 
 
 echo "Enter the country you want to know his capital: "
 read Country
 #jq $country.city country.json
 
-for i,v in file:
-    printf("Key":i)
-    printf("Value":v)
+for count in $Country
+do
+	echo $count
+done
