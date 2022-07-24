@@ -1,3 +1,34 @@
-#!bin/bash
+#!/bin/bash
 #
 
+file=[
+    {
+        "country": "Afghanistan",
+        "city": "Kabul"
+    },
+    {
+        "country": "Albania",
+        "city": "Tirana"
+    },
+    {
+        "country": "Algeria",
+        "city": "Alger"
+    },
+    {
+        "country": "American Samoa",
+        "city": "Fagatogo"
+    },
+    {
+        "country": "Andorra",
+        "city": "Andorra la Vella"
+    },
+}
+
+
+echo "Enter the country you want to know his capital: "
+read Country
+#jq $country.city country.json
+
+for i,v in file:
+    printf("Key":i)
+    printf("Value":v)
