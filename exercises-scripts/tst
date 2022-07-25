@@ -1,8 +1,0 @@
-#!/bin/bash
-#
-list=[1,2,3]
-for i<3 in list:
-do
-   echo "$RANDOM"
-done
-#echo $(( $RANDOM % 10 ))
