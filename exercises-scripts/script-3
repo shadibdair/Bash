@@ -1,7 +1,4 @@
 #!/bin/bash
-#
-echo $(( $RANDOM % 1000 ))
-
-read -p'how many random numbers? ' n 
-echo $n 
-while [[ $n -gt 0 ]]; do echo $RANDOM; n=$((n-1)); done
+# script 3
+read -p'how many rows and columns need, that contains random numbers ? ' n 
+while [[ $n -gt 0 ]]; do echo $RANDOM $RANDOM $RANDOM; n=$((n-1)); done
