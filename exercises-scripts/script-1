@@ -1,4 +1,11 @@
 #!/bin/bash
 #
-echo "Hello" $1
+read -p "input a word to check if's first alphabetically? " word
 
+var2="telephone"
+
+if [[ $word < $var2 ]]; then
+  echo "Word -> $word appear in a dictionary before the word $var2"
+else
+  echo "Word $var2 appear in a dictionary after the word $word"
+fi
