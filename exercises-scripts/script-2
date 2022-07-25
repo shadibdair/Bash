@@ -1,6 +1,15 @@
 #!/bin/bash
 #
+# Countries And Capital
+Afghanistan=Kabul
+Albania=Tirana
+Canada=Ottawa
+Spain=Madrid
+Italy=Roma
+
 echo "Enter the country you want to know his capital: "
 read Country
 # I've created a file text contains 5 countries with capital.
-awk -F= -v key="${Country}" '$1==key {print $2}' country.txt
+awk -F= -v key="${Country}" '$1==key {print $2}' script-2
+
+
