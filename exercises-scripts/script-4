@@ -1,0 +1,19 @@
+#!/bin/bash
+# 
+cat <<EOT >> another-script
+#!/bin/bash
+if [ -d "/home/parallels/Desktop/Course-DevOps-Tsofen/Bash/exercises-scripts/dir99" ] 
+then
+    echo "Directory dir99 exists."
+    exit 0
+else
+    echo "Directory dir99 does not exists."
+    mkdir dir99
+    echo "I've created the dir99 for you :)"
+    ls
+    exit 0
+fi
+EOT
+chmod 700 another-script
+./another-script
+rm -r another-script
