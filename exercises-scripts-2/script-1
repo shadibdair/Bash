@@ -1,3 +1,10 @@
 #!/bin/bash
 #
-
+for f in *; 
+do
+  if [ -d "$f" ]; then
+    echo "$f is a directory"
+  else
+    echo "no!"
+  fi
+done
