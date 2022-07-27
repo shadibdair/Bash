@@ -1,0 +1,20 @@
+#!/bin/bash
+#
+read file
+for f in $file;
+do
+    for p in $f;
+    do
+        echo "${%S}"
+    done
+done
+
+
+
+
+
+"""
+Question
+Read a file, find and print all lines of a certain parameter.
+Num of words in a line is a parameter.
+"""
