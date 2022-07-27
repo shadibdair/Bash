@@ -1,0 +1,3 @@
+#!/bin/bash
+#
+ls | awk -F'.' '{ print($0, NF>1?length-length($NF)-1:length) }'
