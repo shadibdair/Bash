@@ -7,3 +7,10 @@ fi
 
 sed 's/a//g' data.txt >> output.txt
 cat output.txt
+
+
+"""
+Question
+Loop over a test file and remove the letter (lowercase) m.
+Send everything except m into the standard output.
+"""
