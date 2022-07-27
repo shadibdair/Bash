@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -i
 #
 while true :
 read -p "Enter a file name for a little scanning: " file
@@ -21,3 +21,7 @@ do
     fi
     break
 done
+
+# Added the script as interactively mode.
+# Only run " script-5 "
+alias script-5="./script-5"
