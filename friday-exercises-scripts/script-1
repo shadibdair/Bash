@@ -1,3 +1,17 @@
 #!/bin/bash
 #
+if [[ $1 == "+" ]];then
+    i=0;
+    for num in ${@:2} 
+    do
+        (( i += $num ))
 
+    done
+elif [[ $1 == "-" ]];then
+    i=$2
+    for num in ${@:3}
+    do
+        (( i -= $num ))
+    done
+fi
+echo $i
