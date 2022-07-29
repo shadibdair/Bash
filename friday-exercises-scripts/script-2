@@ -1,0 +1,15 @@
+#!/bin/bash
+#
+
+#bash | sleep 3600
+if [[ "$1" == "start" || "$1" == "stop" || "$1" == "status" ]];then
+    if [ "$1" == "start" ];then
+        echo "The proccess start on: $$"
+    elif [ "$1" == "status" ];then
+        echo "The proccess status: "
+        systemctl status $$ > result.txt
+        cat result.txt | grep -i "Active"
+    fi
+else
+    echo "Bad argument!"
+fi

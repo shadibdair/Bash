@@ -1,0 +1,73 @@
+● session-3.scope - Session 3 of User parallels
+     Loaded: loaded (/run/systemd/transient/session-3.scope; transient)
+  Transient: yes
+     Active: active (running) since Fri 2022-07-29 09:43:14 IDT; 3h 27min ago
+      Tasks: 586
+     Memory: 3.0G
+        CPU: 1h 31min 33.776s
+     CGroup: /user.slice/user-1000.slice/session-3.scope
+             ├─ 1424 lightdm --session-child 14 21
+             ├─ 1440 xfce4-session
+             ├─ 1487 /usr/bin/ssh-agent x-session-manager
+             ├─ 1525 xfwm4 --display :0.0 --sm-client-id 20bea077c-9464-414f-8e28-4a560b3a2ea0
+             ├─ 1547 xfsettingsd --display :0.0 --sm-client-id 2037aa8ea-a6ea-4fbf-935f-dfc6a353203e
+             ├─ 1555 xfce4-panel --display :0.0 --sm-client-id 22e9af2b6-d435-4a00-9dca-28aa9c325415
+             ├─ 1559 Thunar --sm-client-id 2d84af2e6-74e8-44e6-97ae-4d839a470e15 --daemon
+             ├─ 1564 xfdesktop --display :0.0 --sm-client-id 2d86ce46b-c02e-4f45-b649-72acd7bc7103
+             ├─ 1567 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 16777223 whiskermenu "Whisker Menu" "Show a menu to easily access installed applications"
+             ├─ 1570 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libsystray.so 16 16777225 systray "Status Tray Plugin" "Provides status notifier items (application indicators) and legacy systray items"
+             ├─ 1571 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 17 16777226 pulseaudio "PulseAudio Plugin" "Adjust the audio volume of the PulseAudio sound system"
+             ├─ 1572 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 18 16777227 notification-plugin "Notification Plugin" "Notification plugin for the Xfce panel"
+             ├─ 1573 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 19 16777228 power-manager-plugin "Power Manager Plugin" "Display the battery levels of your devices and control the brightness of your display"
+             ├─ 1576 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libactions.so 21 16777229 actions "Action Buttons" "Log out, lock or other system actions"
+             ├─ 1600 /usr/lib/firefox-esr/firefox-esr --sm-client-id 2c7377a6f-4fa3-434e-b463-2b9980f5b59d
+             ├─ 1604 xfce4-power-manager --restart --sm-client-id 267d59da8-b611-4f18-812e-f3b874967730
+             ├─ 1626 /usr/bin/python3 /usr/bin/blueman-applet
+             ├─ 1631 xcape -e Super_L Control_L Escape
+             ├─ 1632 light-locker
+             ├─ 1641 /usr/bin/prlcc
+             ├─ 1644 /usr/bin/prldnd
+             ├─ 1645 /usr/bin/prlcp
+             ├─ 1646 /usr/bin/prlsga
+             ├─ 1647 /usr/bin/prlshprof
+             ├─ 1652 /usr/libexec/geoclue-2.0/demos/agent
+             ├─ 1686 nm-applet
+             ├─ 1695 xiccd
+             ├─ 1705 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+             ├─ 2037 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 239814 -jsInit 285716 -parentBuildID 20220426172435 -appdir /usr/lib/firefox-esr/browser 1600 tab
+             ├─ 2069 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 2 -isForBrowser -prefsLen 146 -prefMapSize 239814 -jsInit 285716 -parentBuildID 20220426172435 -appdir /usr/lib/firefox-esr/browser 1600 tab
+             ├─ 2073 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 3 -isForBrowser -prefsLen 146 -prefMapSize 239814 -jsInit 285716 -parentBuildID 20220426172435 -appdir /usr/lib/firefox-esr/browser 1600 tab
+             ├─ 2079 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 4 -isForBrowser -prefsLen 146 -prefMapSize 239814 -jsInit 285716 -parentBuildID 20220426172435 -appdir /usr/lib/firefox-esr/browser 1600 tab
+             ├─ 2089 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 5 -isForBrowser -prefsLen 146 -prefMapSize 239814 -jsInit 285716 -parentBuildID 20220426172435 -appdir /usr/lib/firefox-esr/browser 1600 tab
+             ├─ 2120 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 6 -isForBrowser -prefsLen 146 -prefMapSize 239814 -jsInit 285716 -parentBuildID 20220426172435 -appdir /usr/lib/firefox-esr/browser 1600 tab
+             ├─ 2171 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 7 -isForBrowser -prefsLen 4707 -prefMapSize 239814 -jsInit 285716 -parentBuildID 20220426172435 -appdir /usr/lib/firefox-esr/browser 1600 tab
+             ├─ 2196 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 8 -isForBrowser -prefsLen 4707 -prefMapSize 239814 -jsInit 285716 -parentBuildID 20220426172435 -appdir /usr/lib/firefox-esr/browser 1600 tab
+             ├─ 2296 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 9 -isForBrowser -prefsLen 5367 -prefMapSize 239814 -jsInit 285716 -parentBuildID 20220426172435 -appdir /usr/lib/firefox-esr/browser 1600 tab
+             ├─ 2352 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20220426172435 -prefsLen 7742 -prefMapSize 239814 -appdir /usr/lib/firefox-esr/browser 1600 rdd
+             ├─ 2391 /usr/lib/speech-dispatcher-modules/sd_dummy /etc/speech-dispatcher/modules/dummy.conf
+             ├─ 2394 /usr/bin/speech-dispatcher --spawn --communication-method unix_socket --socket-path /run/user/1000/speech-dispatcher/speechd.sock
+             ├─ 2485 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 11 -isForBrowser -prefsLen 7906 -prefMapSize 239814 -jsInit 285716 -parentBuildID 20220426172435 -appdir /usr/lib/firefox-esr/browser 1600 tab
+             ├─ 2850 mousepad
+             ├─ 3106 "/usr/share/code/code --enable-crashpad ."
+             ├─ 3110 "/usr/share/code/code --type=zygote --no-zygote-sandbox --enable-crashpad --enable-crashpad"
+             ├─ 3111 "/usr/share/code/code --type=zygote --enable-crashpad --enable-crashpad"
+             ├─ 3113 "/usr/share/code/code --type=zygote --enable-crashpad --enable-crashpad"
+             ├─ 3126 /usr/share/code/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/parallels/.config/Code/Crashpad "--url=appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=57a59120-2ac6-49e7-9848-2ab63e2cd226&iid=57a59120-2ac6-49e7-9848-2ab63e2cd226&sid=57a59120-2ac6-49e7-9848-2ab63e2cd226" --annotation=_companyName=Microsoft --annotation=_productName=VSCode --annotation=_version=1.67.2 --annotation=prod=Electron --annotation=ver=17.4.1 --initial-client-fd=43 --shared-client-connection
+             ├─ 3146 "/usr/share/code/code --type=gpu-process --disable-color-correct-rendering --enable-crashpad --crashpad-handler-pid=3126 --enable-crash-reporter=e9c16cdf-fd99-4ca5-a0f5-37f7ce1e8a70,no_channel --user-data-dir=/home/parallels/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABgAAAAAAAAAGAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files --field-trial-handle=0,9353535724613526639,3621779297350262530,131072 --disable-features=PlzServiceWorker,SpareRendererForSitePerProcess"
+             ├─ 3180 "/usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --enable-crashpad --crashpad-handler-pid=3126 --enable-crash-reporter=e9c16cdf-fd99-4ca5-a0f5-37f7ce1e8a70,no_channel --user-data-dir=/home/parallels/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,9353535724613526639,3621779297350262530,131072 --disable-features=PlzServiceWorker,SpareRendererForSitePerProcess --enable-crashpad"
+             ├─ 3198 "/usr/share/code/code --type=renderer --enable-crashpad --crashpad-handler-pid=3126 --enable-crash-reporter=e9c16cdf-fd99-4ca5-a0f5-37f7ce1e8a70,no_channel --user-data-dir=/home/parallels/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --no-sandbox --no-zygote --enable-blink-features=HighlightAPI --disable-color-correct-rendering --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=4 --launch-time-ticks=731402151 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,9353535724613526639,3621779297350262530,131072 --disable-features=PlzServiceWorker,SpareRendererForSitePerProcess --vscode-window-config=vscode:db7f1329-d0e7-48db-832e-0edf6e5820cb --enable-crashpad"
+             ├─ 3216 "/usr/share/code/code --type=renderer --enable-crashpad --crashpad-handler-pid=3126 --enable-crash-reporter=e9c16cdf-fd99-4ca5-a0f5-37f7ce1e8a70,no_channel --user-data-dir=/home/parallels/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --disable-color-correct-rendering --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --launch-time-ticks=732606611 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,9353535724613526639,3621779297350262530,131072 --disable-features=PlzServiceWorker,SpareRendererForSitePerProcess --vscode-window-config=vscode:4a2f47c7-36de-4966-a907-390a6b8b337e --vscode-window-kind=shared-process --enable-crashpad"
+             ├─ 3229 /usr/share/code/code --ms-enable-electron-run-as-node --inspect-port=0 /usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost --skipWorkspaceStorageLock
+             ├─ 3241 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost
+             ├─ 3272 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/out/bootstrap-fork --type=fileWatcher
+             ├─ 3425 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=3229
+             ├─12640 /usr/bin/qterminal
+             ├─12643 /usr/bin/zsh
+             ├─14392 /bin/bash ./script-2 status
+             └─14393 systemctl status 14392
+
+Jul 29 09:43:14 kali-linux-2021-3 systemd[1]: Started Session 3 of User parallels.
+Jul 29 13:02:24 kali-linux-2021-3 sudo[13832]: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=parallels rhost=  user=parallels
+Jul 29 13:02:37 kali-linux-2021-3 sudo[13832]: pam_unix(sudo:auth): conversation failed
+Jul 29 13:02:37 kali-linux-2021-3 sudo[13832]: pam_unix(sudo:auth): auth could not identify password for [parallels]
+Jul 29 13:02:37 kali-linux-2021-3 sudo[13832]: parallels : 2 incorrect password attempts ; TTY=pts/0 ; PWD=/home/parallels/Desktop/Course-DevOps-Tsofen/Bash/friday-exercises-scripts ; USER=root ; COMMAND=/usr/bin/systemctl status
