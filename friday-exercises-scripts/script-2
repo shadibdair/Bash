@@ -1,0 +1,20 @@
+#!/bin/bash
+#
+echo "You can only run these commands (ls, pwd free)-(exit to quit)"
+while read input
+do
+    if [[ "$input" == "ls" || "$input" == "free" || "$input" == "pwd" || "$input" == "exit" ]];then
+        if [ "$input" == ls ];then
+            ls
+        fi
+        if [ "$input" == pwd ];then
+            pwd
+        fi
+        if [ "$input" == free ];then
+            free
+        fi
+    else
+        echo "Wrong input try again!"
+    fi
+    [[ "${input,,}" =~ exit.* ]] && exit 0
+done
